@@ -6,6 +6,7 @@ import { PiDotsThreeBold } from "react-icons/pi";
 import Helper from "./Helper";
 import SidebarLinks from "./SidebarLinks";
 import YourTeamLinks from "./YourTeamLinks";
+import { Link } from "react-router-dom";
 
 export default function Sidebar() {
   return (
@@ -15,7 +16,7 @@ export default function Sidebar() {
           <div className="flex flex-row gap-2">
             <div className=" rounded-xl bg-[#A6B9FD] ">
               <h1 className=" mx-4 my-2 font-bold text-4xl text-[#151B20]">
-                M
+                <Link to="/">M</Link>
               </h1>
             </div>
             <div className="text-white">

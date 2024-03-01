@@ -9,12 +9,14 @@ import Setting from "./pages/Setting";
 import UXTeams from "./pages/UXTeams";
 import DesignTeams from "./pages/DesignTeams";
 import DevTeams from "./pages/DevTeams";
+import Dashboard from "./pages/Dashboard";
 
 const App: React.FC = () => {
   return (
     <Router>
       <Routes>
         <Route path="/" element={<Layout />}>
+          <Route index element={<Dashboard />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/message" element={<Message />} />
           <Route path="/activity" element={<Activity />} />

@@ -10,7 +10,7 @@ export default function YourTeamLinks({ item }: any) {
     <Link
       to={item.path}
       className={classNames(
-        pathname === item.path ? "text-white" : "",
+        pathname === item.path ? "text-[#A6B9FD] rounded-md" : "",
         ClassLink
       )}
     >
