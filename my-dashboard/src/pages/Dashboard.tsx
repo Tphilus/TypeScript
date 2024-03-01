@@ -10,7 +10,7 @@ export default function Dashboard() {
     <div>
       <ProjectFig />
 
-      <div className=" py-4 lg:py-8 flex flex-col md:flex-row w-full justify-between ">
+      <div className=" py-4 lg:py-8 flex flex-col gap-3 md:flex-row w-full justify-between ">
         <Chart />
         <TopClient />
       </div>
