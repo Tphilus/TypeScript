@@ -7,10 +7,13 @@ export default function TopClientInfo({ info }: any) {
             <img src={info.clientImg} alt="Client Img" />
           </div>
         </div>
-        <h2 className=" font-bold text-xl"> {info.clientName} </h2>
+        <h2 className=" font-bold text-base lg:text-xl ">
+          {" "}
+          {info.clientName}{" "}
+        </h2>
       </div>
 
-      <div className=" font-bold text-xl">
+      <div className=" font-bold text-base lg:text-xl">
         $<span>{info.clientAmount}</span>
       </div>
     </div>

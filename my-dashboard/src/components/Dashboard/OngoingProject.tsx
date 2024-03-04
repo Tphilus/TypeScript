@@ -63,7 +63,7 @@ export default function OngoingProject() {
           </div>
 
           <div className="flex gap-2 lg:gap-5 items-center">
-            <button className=" bg-[#3e4146] px-6 py-3 rounded-[4rem] text-white ">
+            <button className="hidden lg:block bg-[#3e4146] px-6 py-3 rounded-[4rem] text-white ">
               new comments
             </button>
             <h1> Aug 21 </h1>
@@ -89,7 +89,7 @@ export default function OngoingProject() {
           </div>
 
           <div className="flex gap-2 lg:gap-5 items-center">
-            <button className=" bg-[#3e4146] px-6 py-3 rounded-[4rem] text-white ">
+            <button className=" hidden lg:block bg-[#3e4146] px-6 py-3 rounded-[4rem] text-white ">
               new comments
             </button>
             <h1> Aug 21 </h1>
@@ -115,7 +115,7 @@ export default function OngoingProject() {
           </div>
 
           <div className="flex gap-2 lg:gap-5 items-center">
-            <button className=" bg-[#3e4146] px-6 py-3 rounded-[4rem] text-white ">
+            <button className="hidden lg:block bg-[#3e4146] px-6 py-3 rounded-[4rem] text-white ">
               new comments
             </button>
             <h1> Aug 21 </h1>
@@ -156,7 +156,7 @@ export default function OngoingProject() {
           </div>
 
           <div className="flex gap-2 lg:gap-5 items-center">
-            <button className=" bg-[#3e4146] px-6 py-3 rounded-[4rem] text-white ">
+            <button className="hidden lg:block bg-[#3e4146] px-6 py-3 rounded-[4rem] text-white ">
               featured
             </button>
             <h1> Aug 21 </h1>
@@ -182,7 +182,7 @@ export default function OngoingProject() {
           </div>
 
           <div className="flex gap-2 lg:gap-5 items-center">
-            <button className=" bg-[#3e4146] px-6 py-3 rounded-[4rem] text-white ">
+            <button className="hidden lg:block bg-[#3e4146] px-6 py-3 rounded-[4rem] text-white ">
               featured
             </button>
             <h1> Aug 21 </h1>
@@ -207,7 +207,7 @@ export default function OngoingProject() {
           </div>
 
           <div className="flex gap-2 lg:gap-5 items-center">
-            <button className=" bg-[#3e4146] px-6 py-3 rounded-[4rem] text-white ">
+            <button className="hidden lg:block bg-[#3e4146] px-6 py-3 rounded-[4rem] text-white ">
               featured
             </button>
             <h1> Aug 21 </h1>
