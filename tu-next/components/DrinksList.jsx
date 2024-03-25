@@ -17,6 +17,8 @@ function DrinksList({ drinks }) {
                   src={drink.strDrinkThumb}
                   fill
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px ) 50vw "
+                  alt={drink.strDrink}
+                  className=" rounded-md object-cover"
                 />
               </div>
               {drink.strDrink}
